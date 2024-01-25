@@ -1,0 +1,161 @@
+/*
+Theme Name: Metalogic
+Theme URI: http://webdesign-finder.com/metalogic
+Author: YetiTeam
+Author URI: http://modernwebtemplates.com/
+Description: Metalogic - Business WordPress theme
+Version: 1.1.0
+License: Commercial
+License URI: http://webdesign-finder.com/metalogic
+Tags: custom-header, left-sidebar, right-sidebar, post-formats, full-width-template
+Text Domain: metalogic
+Domain Path: /languages
+
+This theme uses great Unyson Framework to make best user experience
+
+see css/main.css for all of the styles
+*/
+
+
+/*
+** WordPress Required
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky,
+.bypostauthor{position: relative;}
+
+.entry-content:before,
+.entry-content:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.wp-block-button a.wp-block-button__link:hover {
+    color: inherit;
+}
+.wp-block-gallery {
+    width: 100%;
+}
+.wp-block-gallery .blocks-gallery-item:before {
+    display: none;
+}
+.wp-block-gallery .blocks-gallery-item figcaption {
+    line-height: 1.6;
+    padding: .5rem;
+}
+.entry-content p[style*='font-size'], .entry-content p.has-large-font-size {
+    line-height: 1.2
+}
+.wp-block-audio {
+    margin-bottom: 10px;
+}
+.wp-block-archives.wp-block-archives-dropdown {
+    margin-bottom: 10px;
+}
+
+/* Â¯\_(ãƒ„)_/Â¯ */
+#post-1158 .entry-title + dl#attachment_612[style],
+#post-1158 .entry-title + dl#attachment_612[style] + p,
+#post-1158 .entry-content dl#attachment_612[style],
+#post-1158 .entry-content dl#attachment_612[style] + p {
+    display: none;
+}
